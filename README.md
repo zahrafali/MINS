@@ -9,3 +9,4 @@ The data was aputed for 5%, 10%, 20%, 30%, 40% and 50%. Then these amputed value
 The imputation methods we used are – Mean, Median, Linear Regression, Random Forest, Boosting and Bagging. 
 The imputation was done on Diastolic Blood pressure, Systolic blood Pressure, Respiratory Rate and Pulse. These were vitals from the postoperative dataset. We selected these 4 variables as they had the least missing values(-999 or 0). 
 The Validation methods used are 5 fold cross validation, 10 fold cross validation, Bootstrap validation, Fixed test bootstrap validation and 5 fold bootstrap validation. 
+Fixed test bootstrap validation and 5 fold bootstrap validation are two variations of the standard bootstrap validation technique that we have implemented here.
